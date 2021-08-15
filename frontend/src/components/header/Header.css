@@ -1,0 +1,21 @@
+.header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 10%;
+  font-family: 'Walter Turncoat', cursive;
+  color: #0d1f2d;
+}
+
+.header-title-txt {
+  font-family: 'Walter Turncoat', cursive;
+  position: absolute;
+  top: 260px;
+  font-size: 70px;
+}
+
+.header-img{
+    width: 100%;
+    height: 490px;
+    object-fit: cover;
+}

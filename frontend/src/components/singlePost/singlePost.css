@@ -1,0 +1,114 @@
+.single-post {
+  flex: 9;
+}
+
+.single-post-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+}
+
+.single-post-img {
+  width: 100%;
+  height: 350px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.single-post-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+  font-family: 'Poppins';
+  font-size: 28px;
+}
+
+.single-post-title-input {
+  margin: 10px;
+  font-family: 'Poppins';
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+
+.single-post-title-input:focus {
+  outline: none;
+}
+
+.single-post-edit {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.single-post-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.single-post-opt:first-child {
+  background-color: teal;
+  color:white;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.single-post-opt:last-child {
+  background-color: rgb(255, 71, 71);
+  color:white;
+  padding: 10px;
+}
+
+.single-post-info {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-family: 'Poppins';
+  color: #546a7b;
+}
+.single-post-author{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.single-post-desc {
+  font-family: 'Poppins';
+  color: gray;
+  font-size: 18px;
+  line-height: 25px;
+  min-height: 70vh;
+  margin: 20px 5%;
+}
+
+.single-post-desc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.single-post-desc-input {
+  border: none;
+  color: gray;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.single-post-desc-input:focus {
+  outline: none;
+}
+.single-post-button {
+  width: 100px;
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+

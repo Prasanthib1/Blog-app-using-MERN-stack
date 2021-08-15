@@ -1,0 +1,58 @@
+.register {
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80");
+  background-size: cover;
+}
+
+.register-wrapper{
+  padding: 50px 20%;
+  background-color: rgba(0, 0, 0, 0.384);
+}
+
+.register-title {
+  font-family: 'Poppins';
+  font-size: 50px;
+  color: #fae1df;
+
+  margin-left: 20px;
+  text-align: center;
+}
+
+.register-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form > label {
+  margin: 20px 0 5px 0;
+  font-size: 10px;
+  font-family: 'Poppins';
+  color: #fae1df;
+}
+
+.register-input {
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+
+.register-button {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #e4c3ad;
+  border: none;
+  color: #0d1f2d;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Poppins';
+}
+

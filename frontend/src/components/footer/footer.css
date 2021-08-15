@@ -1,0 +1,9 @@
+footer{
+    height: 30px;
+    text-align: center;
+    font-family: 'Poppins';
+    background-color: #546a7b;
+    color: #e4c3ad;
+    padding-top: 7px;
+    bottom: 0;
+}

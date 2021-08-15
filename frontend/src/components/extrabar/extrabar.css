@@ -1,0 +1,38 @@
+.extrabar-out{
+  display: flex;
+  height: 40px;
+  font-family: 'Poppins';
+  background-color: #fae1df;
+  justify-content: center;
+  margin: -6px 0 20px 0;
+  padding: 20px 2px 0 2px;
+}
+.extrabar p{
+  font-family: 'Poppins';
+  margin-right: 15px;
+}
+.extrabar-out button, .extrabar-in button{
+  font-family: 'Poppins';
+  font-size: 15px;
+  padding: 4px 10px;
+  background-color: #546a7b;
+  color: white;
+  border:1px solid #5d6c79;
+  cursor: pointer;
+}
+.extrabar-in button{
+  margin: 20px 20px;
+}
+.extrabar-out button{
+  margin: -3px 0 10px 10px;
+}
+.extrabar-out button:hover, .extrabar-in button:hover{
+  color: #5d6c79;
+  background-color: white;
+  
+  transition: 0.5s;
+}
+
+.create-icon{
+  margin: 3px 4px 0 0px;
+}
